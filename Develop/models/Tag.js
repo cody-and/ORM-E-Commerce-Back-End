@@ -11,11 +11,11 @@ Tag.init(
       allowNull: false,
       primaryKey: true,
       autoIncrement: true,
-  },
-  tag_name: {
-    typ: DataTypes.STRING,
-    allowNull: false,
-  }
+    },
+    tag_name: {
+      type: DataTypes.STRING, 
+      allowNull: false,
+    }
   },
   {
     sequelize,
@@ -27,3 +27,4 @@ Tag.init(
 );
 
 module.exports = Tag;
+
